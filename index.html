@@ -15,9 +15,13 @@
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-			<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-            <link href="css/headerfooter.css" rel="stylesheet">		
+            <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+            
+
+            <!--Custom Stylesheets-->
+            <link rel="stylesheet" href="css/headerfooter.css">		
             <link rel="stylesheet" href="css/homepage.css">
+            <link rel="stylesheet" href="css/noticeboard.css">
 		</head>
 	<body>
 
@@ -77,9 +81,12 @@
 					</li>
 				</ul>
 			</div>
-		</nav>
+        </nav>
+        <!--Nav bar ends-->
 
-		<!-- Content -->
+        <!-- Content  -->
+        
+        <!--About section start -->
 
         <div style="height: 10em;">
             
@@ -117,6 +124,112 @@
                 </div>
             </div>
         </section>
+
+        <!--About Section ends-->
+
+
+        <!--Post holder start -->
+        <h1 class="postholders">- Current Postholders -</h1>
+        <div class="card-wrap">
+            <div class="card-column" id="top">
+                <div class="card-inner">
+                    <div class="member">
+                        <center><img src="https://nss.nitrkl.ac.in/img/team/xpmkhilar.jpg.pagespeed.ic.Vf5gvSOnBM.webp" alt=""></center>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member__title">PROF. PABITRA MOHAN KHILAR</h3>
+                        <span>PIC,NSS</span>
+                        <div class="social">
+                            <p>pmkhilar@nitrkl.ac.in</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-column" id="top">
+                <div class="card-inner">
+                    <div class="member">
+                        <center><img src="https://nss.nitrkl.ac.in/img/team/xJPK1.jpg.pagespeed.ic.KiaD4WjTer.webp" alt=""></center>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member__title">PROF. JYOTIPRAKASH KAR</h3>
+                        <span>CO-PIC,NSS</span>
+                        <div class="social">
+                            <p>karjp@nitrkl.ac.in</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-column" id="top">
+                <div class="card-inner">
+                    <div class="member">
+                        <center><img src="https://nss.nitrkl.ac.in/img/team/xJPK1.jpg.pagespeed.ic.KiaD4WjTer.webp" alt=""></center>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member__title">PROF. JYOTIPRAKASH KAR</h3>
+                        <span>CO-PIC,NSS</span>
+                        <div class="social">
+                            <p>karjp@nitrkl.ac.in</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-column" id="bottom">
+                <div class="card-inner">
+                    <div class="member">
+                        <center><img src="https://nss.nitrkl.ac.in/img/team/xjp.jpg.pagespeed.ic.ZeBmlNj5p7.webp" alt=""></center>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member__title">PROF. JALANDHAR PRADHAN</h3>
+                        <span>CO-PIC,NSS</span>
+                        <div class="social">
+                            <p>pradhanj@nitrkl.ac.in</p>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-column" id="bottom">
+                <div class="card-inner">
+                    <div class="member">
+                        <center><img src="https://nss.nitrkl.ac.in/img/team/xtkm.jpg.pagespeed.ic.PAzVKySj8b.webp" alt=""></center>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member__title">PROF. TAPAS KUMAR MISHRA</h3>
+                        <span>CO-PIC,NSS</span>
+                        <div class="social">
+                            <p>mishrat@nitrkl.ac.in</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Post holder end-->
+
+        
+        <!--NOTICE BOARD    <SNEHA>-->
+	<div class="content">
+		<h1 class="header" align="center">NOTIFICATIONS</h1>
+		<marquee behavior="scroll" direction="up" scrollamount="8"
+          onmouseover="this.setAttribute('scrollamount',0,0);this.stop();"
+          onmouseout="this.setAttribute('scrollamount',8,0);this.start();"
+		class="movingbody">
+			<script>
+				for(var i=1;i<=5;i++){
+					document.write('<p class="m-par">'+i+'. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. </p>')
+				}
+			</script>
+		</marquee>
+	</div>
+    <!--NOTICE BOARD OVER    SNEHA-->
+    
+  
+
 
 		<!-- Footer -->
 
