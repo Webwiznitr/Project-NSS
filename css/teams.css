@@ -2,15 +2,17 @@ h1{
     font-family:Verdana;
     font-variant:small-caps;
     width:100%;
-    background:linear-gradient(#7094db,#8592ed);
-    color:white;
+    color: white;
+    background-color: #091D36;
     padding:1.5%;
+    text-align: center;
 }
 h3{
     font-family:Verdana;
     color:#3a3b42;
     font-size:70%;
 }
+
 
  /*Cards*/
 
@@ -153,6 +155,8 @@ align-content: center;
     overflow: auto;
     resize:both;
     float:left;
+    padding: 0 10% 5%;
+    background: white;
 }
  
 
@@ -160,9 +164,8 @@ thead th{
 
     padding:1.2%;
     width:10%;
-    background:#4775d1;
-    color:black;
-    border-radius:5px 5px 0px 0px;
+    background-color: #091D36;
+    color: white;
     font-family:Verdana, Arial,"Times New Roman",serif;
     font-size:85%;
     text-align:center;
@@ -174,7 +177,7 @@ tbody th{
 
 td{
     background:#b3ccff;
-    opacity:70%;
+    opacity: 0.75;
     font-size:80%;
     padding:1.1%;
     font-family:Verdana, Arial,"Times New Roman",serif;
@@ -185,14 +188,23 @@ td:first-child{
     text-align:left;
 
 }
-th:first-child{
+th:nth-child(1){
     text-align:left;
-    opacity:70%;
     width:2%;
 }
+
 tr:last-child{
     border-radius:0px 0px 0px 50px;
 }
 td:hover{
     opacity:100%;
 }
+
+a{
+    opacity: 1;
+}
+
+a:hover{
+    color: #091D36;
+}
+
