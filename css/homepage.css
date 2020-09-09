@@ -12,17 +12,21 @@ html, body {
 }
 
 .navbar-nav li {
-    padding-right: 2em;
     color: #000000;
+    display: inline-block;
+    float: left;
 }
 
 .navbar-nav a {
     font-size: 1.1em;
 }
 
-.nav-link:hover {
-    background-color: indigo;
-    color: #E5FF00;
+.nav-link {
+    float: left;
+}
+.nav_element{
+    display: inline-block;
+    float: left;
 }
 
 /*Dropdown Menu*/
@@ -84,6 +88,7 @@ html, body {
 
 .about__img {
     justify-self: center;
+    display: inline-block;
 }
 ourmission_txt {
     padding-bottom: 2rem;
