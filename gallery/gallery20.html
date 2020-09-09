@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<!--    Favicon-->
+<link rel="icon" href="../img/logo.jpeg" type="image/png" sizes="16x16">
     <title>Gallery</title>
 
     <!-- load stylesheets -->
@@ -12,21 +13,82 @@
     <!-- Google web font "Open Sans" -->
     <link rel="stylesheet" href="Font-Awesome-4.7/css/font-awesome.min.css">                
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">                                      
+    <link rel="stylesheet" href="../css/bootstrap.min.css">                                      
     <!-- Bootstrap style -->
     <link rel="stylesheet" href="css/hero-slider-style.css">                              
     <!-- Hero slider style (https://codyhouse.co/gem/hero-slider/) -->
     <link rel="stylesheet" href="css/magnific-popup.css">                                 
     <!-- Magnific popup style (http://dimsemenov.com/plugins/magnific-popup/) -->
-    <link rel="stylesheet" href="css/style1.css">                             
-
-        <script src="js/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="css/style1.css">  
+    <link rel="stylesheet" href="../css/headerfooter.css">         
+    <link rel="stylesheet" href="../css/style1.css">                  
+    <link rel="stylesheet" href="../css/headerfooter.css">
+    <link rel="stylesheet" href="../css/style1.css">
 </head>
 
     <body>
-        <li class="selected">                    
+        <!-- Navigation Bar -->
+
+		<nav class="navbar navbar-expand-md navbar-dark sticky-top bg-primary">
+			<button style="background-color: #BEC9F2" class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>	
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<a class="navbar-logo" href="#"><img src="../img/navbar-logo.png"></a>
+
+				<ul class="navbar-nav mx-auto">
+					
+					<li class="nav-item active">
+						<a class="nav-link" href="../index.html">Home</a>
+					</li>	
+
+					<li class="nav-item">
+						<div class="dropdown-show">
+		  					<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Team</a>
+							<div class="dropdown-menu">
+							   	<a class="dropdown-item" href="../teams.html">Team of 2019-20</a>
+		    					<a class="dropdown-item" href="../teams.html">Team of 2018-19</a>
+		    					<a class="dropdown-item" href="../teams.html">Team of 2017-18</a>
+		  					</div>
+						</div>	
+					</li>
+
+					<li class="nav-item">
+						<div class="dropdown-show">
+		  					<a class="nav-link dropdown-toggle" href="../workplace.html" data-toggle="dropdown">Workplaces</a>
+							<div class="dropdown-menu">
+							    <a class="dropdown-item" href="../workplace.html">Awareness And Cleaning</a>
+		    					<a class="dropdown-item" href="../workplace.html">Birsamunda Bidyapitha</a>
+		    					<a class="dropdown-item" href="../workplace.html">East Kantajhar</a>
+		    					<a class="dropdown-item" href="../workplace.html">Jagda Orphanage</a>
+		    					<a class="dropdown-item" href="../workplace.html">Leprosy Colony</a>
+		  					</div>
+						</div>	
+					</li>
+					
+					<li class="nav-item">
+						<div class="dropdown-show">
+		  					<a class="nav-link dropdown-toggle" href="gallery.html" data-toggle="dropdown">Gallery</a>
+							<div class="dropdown-menu">
+							    <a class="dropdown-item" href="gallery20.html">Memories of 2020</a>
+		    					<a class="dropdown-item" href="gallery19.html">Memories of 2019</a>
+		    					<a class="dropdown-item" href="gallery18.html">Memories of 2018</a>
+		    					<a class="dropdown-item" href="gallery17.html">Memories of 2017</a>
+		  					</div>
+						</div>	
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="#">Login</a>
+					</li>
+				</ul>
+			</div>
+        </nav>
+        <!--Nav bar ends-->
+
+            
             <div class="cd-full-width">
-                <div class="container-fluid js-tm-page-content" data-page-no="1" data-page-type="gallery">
+                <div class="container js-tm-page-content" data-page-no="1" data-page-type="gallery">
                     <div class="tm-img-gallery-container">
                         <div class="tm-img-gallery gallery-one">
                             <div class="grid-item">
@@ -112,11 +174,51 @@
                         </div>                                 
                     </div>
                 </div>                                                    
-            </div>                    
-        </li>
+            </div>      
+
+        
+    <!-- Footer -->
+
+		<footer>
+			<div class="container-fluid ">
+				<div class="row">
+					<div class="contact col-lg-3">
+						<h3>About us</h3>
+						<p>National Service Scheme(NSS), an initiative by the Government of India, provides hands-on experience in community services to young students.</p>
+					</div>
+					<div class="contact col-lg-6">
+						<h3>Contact</h3>
+						<div class="row">
+							<div class="col-lg-6">	
+								<h5>Prof. Pabitra M. Khilar</h5>
+								<h5>PIC, NSS</h5>
+								<a class="btn" type="button" href="mailto: pmkhilar@nitrkl.ac.in"><span class="fa fa-envelope"></span> : pmkhilar@nitrkl.ac.in</a>
+							</div>
+							<div class="col-lg-6">
+								<h5>Mr. Jagannath Sahoo</h5>
+								<h5>Chief co-ordinator, NSS</h5>
+								<a class="btn" type="button" href="mailto: jsahoo110@gmail.com"><span class="fa fa-envelope"></span> : jsahoo110@gmail.com</a>
+								<a class="btn" type="button" href="tel: +91 8458061139"><span class="fa fa-phone"></span> : +91 8458061139</a>
+							</div>
+						</div>
+					</div>
+					<div class="contact col-lg-3">
+						<h5>Follow us on!</h5>
+						<a class="btn" type="button" href="#"><span class="fab fa-facebook fa-2x"></span></a>
+						<a class="btn" type="button" href="#"><span class="fab fa-instagram fa-2x"></span></a>
+						<a class="btn" type="button" href="#"><span class="fab fa-twitter fa-2x"></span></a>
+						<a class="btn" type="button" href="#"><span class="fab fa-github fa-2x"></span></a>
+					</div>															
+				</div>	
+			</div>
+			<div class="bottom container-fluid col-12">
+				<p>&copy;2020 National Service Scheme | National Institute of Technology, Rourkela | All Rights Reserved.</p>
+				<p style="text-align: right;">Designed by <a href="https://www.instagram.com/webwiz.nitr/">WebWiz</a></p>
+			</div>				
+		</footer>
         
         <!-- load JS files -->
-        
+        <script src="../js/jquery.min.js"></script>
         <script src="js/tether.min.js"></script> <!-- Tether (http://tether.io/)  --> 
         <script src="js/bootstrap.min.js"></script>             <!-- Bootstrap js (v4-alpha.getbootstrap.com/) -->
         <script src="js/hero-slider-main.js"></script>          <!-- Hero slider (https://codyhouse.co/gem/hero-slider/) -->
