@@ -4,13 +4,13 @@
 }
 
 body{
-    background-color: #091D36;
+    background-color: white;
  
 }
 .content{
 	width: 300px;
 	margin:  -8% 0 0 5%;
-	box-shadow: 1px 1px 10px 2px rgba(255, 255, 255, 0.76);
+	box-shadow: 1px 1px 10px 2px rgba(17, 28, 72, 0.76);
 	border-radius: 5px; 
 	overflow: hidden;
     display: inline-block;

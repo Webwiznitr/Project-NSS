@@ -65,7 +65,7 @@ html, body {
 }
 /*About Section*/
 .about {
-    background-color: #091D36;
+    background-color: white;
     display: inline-block;
     width: 70%;
     margin-top: -22.5%;
@@ -81,12 +81,12 @@ html, body {
     margin-top: 0%;
     margin-bottom: var(--mb-2);
     font-weight: 600;
-    color: #fff;
+    color: #091D36;
     padding: 2% 0;
 }
 
 .about p {
-    color: #fff;
+    color: #091D36;
     padding: 0 5rem;
     padding-bottom: 2rem;
 }
