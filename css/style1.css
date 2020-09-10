@@ -19,6 +19,9 @@ ul {
   margin: 0;
   list-style: none;
 }
+.navbar{
+    background-color: #091D36;
+}
 .whole{
       background-image: linear-gradient(to right, rgba(105, 167, 239, 0.54) , rgba(53, 114, 212, 0.39));
 
