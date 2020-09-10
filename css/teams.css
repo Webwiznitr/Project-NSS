@@ -3,14 +3,13 @@ h1{
     font-variant:small-caps;
     width:100%;
     color: white;
-    background-color: #0e3d77;
     padding:1.5%;
     text-align: center;
 }
 h3{
     font-family:Verdana;
-    color:#3a3b42;
-    font-size:70%;
+    color: #091D36;
+    font-size:40%;
 }
 .navbar{
     background-color: #091D36;
@@ -109,7 +108,7 @@ h3{
     resize:both;
     background:#ffffff;
     width:25%;
-    box-shadow: 0 10px 10px -5px rgba(11, 34, 114, 0.6);
+    box-shadow: 0 10px 10px -5px;
     overflow:auto;
     resize:both;
 
@@ -121,7 +120,7 @@ h3{
     background:#fff;
     width:27%;
     margin-left:8%;
-    box-shadow: 0 10px 10px -5px rgba(11, 34, 114, 0.6);
+    box-shadow: 0 10px 10px -5px;
     overflow:auto;
     resize:both;
 }
@@ -143,66 +142,52 @@ h2{
     font-family:Arial;
     font-size:180%;
     text-align:center;
-    color:#333333;
+    color:#fff;
 }
 
 /*Table*/
-.Table-C {
 
-align-content: center;
+body {
+	height: 100%;
 }
-.table {
-    width:100%;
-    overflow: auto;
-    resize:both;
-    float:left;
-    padding: 0 10% 5%;
-    background: white;
+
+body {
+	margin: 0;
+	background: linear-gradient(45deg, #49a09d, #3a2c82);
+	font-family: sans-serif;
+	font-weight: 100;
 }
- 
 
-thead th{
 
-    padding:1.2%;
-    width:10%;
+table {
+	width: 1110px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+th {
+	text-align: left;
     background-color: #091D36;
-    color: white;
-    font-family:Verdana, Arial,"Times New Roman",serif;
-    font-size:85%;
-    text-align:center;
-
-}
-tbody th{
-    background: #b3ccff;
 }
 
-td{
-    background:#b3ccff;
-    opacity: 0.75;
-    font-size:80%;
-    padding:1.1%;
-    font-family:Verdana, Arial,"Times New Roman",serif;
-    font-weight:normal; 
-    text-align:center;
-}
-td:first-child{
-    text-align:left;
-
-}
-th:nth-child(1){
-    text-align:left;
-    width:2%;
+thead {
+	th {
+		background-color: #55608f;
+	}
 }
 
-tr:last-child{
-    border-radius:0px 0px 0px 50px;
-}
 td:hover{
-    opacity:100%;
+    background-color: rgba(255, 255, 255, 0.6);
 }
-
-
-a:hover{
-    color: #091D36;
+a{
+    color: white;
 }
 
