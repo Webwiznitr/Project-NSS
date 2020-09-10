@@ -1,9 +1,12 @@
 body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
+  color: white;
+  line-height: 30px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    
 }
 p {
   margin-bottom: -1rem;
@@ -23,7 +26,7 @@ ul {
     background-color: #091D36;
 }
 .whole{
-      background-image: linear-gradient(to right, rgba(105, 167, 239, 0.54) , rgba(53, 114, 212, 0.39));
+      background: linear-gradient(45deg, #49a09d, #3a2c82);
 
 }
 #tabs ul {
@@ -42,15 +45,23 @@ ul {
   width: 100%;
   padding: 30px 30px;
   display: inline-block;
-  background-color: #091D36;
+  background-color: rgba(255, 255, 255, 0.1);
   font-size: 20px;
-  color: #296d98;
+  color: #091D36;
   letter-spacing: 0.5px;
   font-weight: 700;
   transition: all 0.3s;
 }
+#tabs ul li a:hover{
+    transform: scale(1.01);
+    background-color: rgba(255, 255, 255, 0.3);
+}
 #tabs ul li a i {
   float: right;
+}
+
+#tabs ul li a:active{
+    
 }
 #tabs ul .ui-tabs-active span {
   background: #faf5b2;
@@ -60,9 +71,11 @@ ul {
 }
 #tabs ul .ui-tabs-active a {
   color: #fff;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 #tabs ul .ui-tabs-active span {
-  color: #1e1e1e;
+    color: #1e1e1e;
+     
 }
 .tabs-content {
   text-align: left;
@@ -83,7 +96,7 @@ ul {
 }
 .tabs-content p {
   font-size: 1rem;
-  color: #091D36;
+  color: #fff;
   margin-bottom: 0px;
   padding: 0%;
 
@@ -97,6 +110,13 @@ article{
     font-size: 1rem;
 }
 
+h3{
+    text-align: center;
+    line-height: 30px;
+    color: #061527;
+    font-weight: 700;
+
+}
 /* Responsive Style */
 
 

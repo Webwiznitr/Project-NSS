@@ -147,11 +147,9 @@ h2{
 
 /*Table*/
 
-body {
-	height: 100%;
-}
 
 body {
+    height: 100%;
 	margin: 0;
 	background: linear-gradient(45deg, #49a09d, #3a2c82);
 	font-family: sans-serif;
