@@ -7,6 +7,10 @@ html, body {
 
 /*Nav Bar*/
 
+.navbar{
+    background-color: #091D36;
+}
+
 .navbar-logo {
     padding-left: 1em;
 }
