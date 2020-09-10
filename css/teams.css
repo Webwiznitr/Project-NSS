@@ -3,7 +3,7 @@ h1{
     font-variant:small-caps;
     width:100%;
     color: white;
-    background-color: #091D36;
+    background-color: #0e3d77;
     padding:1.5%;
     text-align: center;
 }
@@ -107,10 +107,9 @@ h3{
 #top{
     margin:1.5%;
     resize:both;
-    background:#85abed;
+    background:#ffffff;
     width:25%;
-    border:1px solid #85abed;
-    border-radius:5px;
+    box-shadow: 0 10px 10px -5px rgba(11, 34, 114, 0.6);
     overflow:auto;
     resize:both;
 
@@ -119,11 +118,10 @@ h3{
   
     margin:1.5%;
     resize:both;
-    background:#85abed;
+    background:#fff;
     width:27%;
     margin-left:8%;
-    border:1px solid #85abed;
-    border-radius:5px;
+    box-shadow: 0 10px 10px -5px rgba(11, 34, 114, 0.6);
     overflow:auto;
     resize:both;
 }

@@ -172,7 +172,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    background-color: #091D36;
+    background: linear-gradient(90deg, rgb(3, 0, 47) 0%, rgb(2, 2, 67) 50%, rgb(5, 43, 105) 96%);
 }
 
 .card-column {
@@ -258,7 +258,7 @@ h3 {
     width: 25%;
     overflow: auto;
     resize: both;
-    box-shadow: 5px 5px 2.5px rgba(222, 222, 222, 0.67);
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.6);
 }
 
 #bottom {
@@ -267,7 +267,7 @@ h3 {
     background: #f7f7f7;
     width: 27%;
     margin-left: 8%;
-    box-shadow: 5px 5px 2.5px rgba(222, 222, 222, 0.67);
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.6);
     overflow: auto;
     resize: both;
 }
