@@ -8,8 +8,7 @@ h1{
 }
 h3{
     font-family:Verdana;
-    color: #091D36;
-    font-size:40%;
+    font-size: 120%;
 }
 .navbar{
     background-color: #091D36;
@@ -80,7 +79,9 @@ h3{
     overflow:auto;
     resize:both;
 }
-
+.member__title{
+    font-size: 2rem;
+}
 .user img {
     width: 200px;
     overflow:auto;
