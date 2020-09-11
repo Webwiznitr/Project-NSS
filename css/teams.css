@@ -13,6 +13,9 @@ h3{
 .navbar{
     background-color: #091D36;
 }
+.navbar img{
+    border-radius: 25px;
+}
 
 
  /*Cards*/

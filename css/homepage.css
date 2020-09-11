@@ -11,6 +11,10 @@ html, body {
     background-color: #091D36;
 }
 
+.navbar img{
+    border-radius: 25px;
+}
+
 .navbar-logo {
     padding-left: 1em;
 }

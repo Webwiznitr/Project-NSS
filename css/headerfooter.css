@@ -7,12 +7,17 @@ html,body{
 }
 
 /*Nav Bar*/
+.navbar{
+  background-color: #091D36;
+}
 
 .navbar-logo{
 
   padding-left: 1em;
 }
-
+.navbar img{
+  border-radius: 25px;
+}
 .navbar-nav li{
 
   padding-right: 2em;
@@ -47,6 +52,7 @@ html,body{
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  font-size: 1.1rem;
 }
 
 .dropdown-menu a{
