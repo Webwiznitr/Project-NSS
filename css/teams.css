@@ -88,21 +88,6 @@ h3{
     resize:both;
 }
 
-@media screen and (max-width: 1110px) {
-
-    .card-column {
-        width: 50%;
-
-    }
-
-}
-
-@media screen and (max-width: 600px) {
-    .card-column {
-        width: 90%;
-        margin: 0 auto;
-    }
-}
 
 #top{
     margin:1.5%;
@@ -188,5 +173,35 @@ td:hover{
 }
 a{
     color: white;
+}
+
+@media screen and (max-width: 1110px) {
+
+    .card-column {
+        width: 50%;
+
+    }
+    #top{
+        width: 40%;
+    }
+    #bottom{
+        width: 40%;
+        margin: 1%;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    .card-column {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #top{
+        width: 80%;
+    }
+    #bottom{
+        width: 80%;
+        margin: 1%;
+    }
 }
 
