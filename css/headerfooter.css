@@ -108,7 +108,7 @@ color: #d5d5d5;
   text-align: center;
   padding-top: 0.75em;
   height: 5em;
-  font-size: 12px;
+  font-size: 12px !important;
 }
 
 .btn{
