@@ -97,6 +97,7 @@ color: #d5d5d5;
   padding-right: 7em;
 }
 
+
 .bottom{
   
   background-color: #2A2A2A;
@@ -105,6 +106,12 @@ color: #d5d5d5;
   height: 5em;
   font-size: 12px;
 }
+
+.btn{
+  font-size: 12px;
+  text-decoration: none;
+}
+
 
 /*Media Queries for Footer*/
 
