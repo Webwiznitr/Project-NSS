@@ -94,6 +94,7 @@ html, body {
     color: #091D36;
     padding: 0 5rem;
     padding-bottom: 2rem;
+    text-align: justify;
 }
 
 .about__img {
@@ -102,6 +103,7 @@ html, body {
 }
 ourmission_txt {
     padding-bottom: 2rem;
+    
 }
     .about__img img {
         width: 140px;
@@ -186,6 +188,8 @@ h3 {
     position: relative;
     z-index: 0;
     transition: transform .4s ease;
+    margin-bottom: 30px !important;
+    padding:20px !important;
 }
 
 .card-inner {
@@ -234,6 +238,7 @@ h3 {
     width: 200px;
     overflow: auto;
     resize: both;
+   
 }
 
 .user img {
