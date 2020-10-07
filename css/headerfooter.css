@@ -89,6 +89,7 @@ color: #d5d5d5;
 
 .contact, .address{
   text-align: center;
+  font-size: 14px;
 }
 
 .form{
@@ -97,6 +98,9 @@ color: #d5d5d5;
   padding-right: 7em;
 }
 
+.col-lg-6 > h5{
+  font-size: 14px;
+}
 
 .bottom{
   
