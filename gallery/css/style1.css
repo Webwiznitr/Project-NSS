@@ -141,6 +141,7 @@ figure.effect-sadie figcaption::before,
 figure.effect-sadie p {
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
+	color:white;
 }
 
 figure.effect-sadie p {
@@ -202,7 +203,7 @@ figure.effect-sadie:hover p {
 }
 
 .cd-hero-slider h2 { font-size: 1.5em; }
-.cd-hero-slider p.tm-figure-description { font-size: 1.2rem; }
+.cd-hero-slider p.tm-figure-description { font-size: 1.2rem;  }
 
 .cd-hero-slider .selected .cd-full-width h2.tm-figure-title {
 	margin-bottom: 0;
@@ -228,6 +229,7 @@ figure.effect-sadie:hover p {
 .cd-hero-slider .selected .cd-full-width figure.effect-sadie:hover p.tm-figure-description {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
+	
 }
 
 .grid-item figure figcaption > a {
