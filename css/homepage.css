@@ -72,7 +72,6 @@ html, body {
     background-color: white;
     display: inline-block;
     width: 70%;
-    margin-top: -22.5%;
     float: left;
 }
 
@@ -94,6 +93,7 @@ html, body {
     color: #091D36;
     padding: 0 5rem;
     padding-bottom: 2rem;
+    text-align: justify;
 }
 
 .about__img {
@@ -102,6 +102,7 @@ html, body {
 }
 ourmission_txt {
     padding-bottom: 2rem;
+    
 }
     .about__img img {
         width: 140px;
@@ -127,19 +128,26 @@ footer {
     text-align: center;
 }
 
+.contact h3 {
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 11px;
+}
+
 .form {
     padding-left: 3em;
     padding-right: 7em;
 }
 
-.bottom {
+/* .bottom {
     margin-bottom: -2%;
     background-color: #2A2A2A;
     text-align: center;
     padding-top: 0.75em;
     height: 5em;
     
-}
+} */
 
 /*Media Queries for Footer*/
 
@@ -186,6 +194,8 @@ h3 {
     position: relative;
     z-index: 0;
     transition: transform .4s ease;
+    margin-bottom: 30px !important;
+    padding:20px !important;
 }
 
 .card-inner {
@@ -234,6 +244,7 @@ h3 {
     width: 200px;
     overflow: auto;
     resize: both;
+   
 }
 
 .user img {
@@ -241,7 +252,12 @@ h3 {
     overflow: auto;
     resize: both;
 }
-
+.carousel{
+    max-height: 290px;
+    object-fit: contain;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
 @media screen and (max-width: 767px) {
     .card-column {
         width: 90%;
