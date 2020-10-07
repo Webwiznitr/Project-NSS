@@ -16,6 +16,7 @@ a:hover,
 a:focus {
 	text-decoration: none;
 	outline: none;
+	
 }
 .container-fluid { 
 	width: 100%; /* IE fix */
@@ -79,6 +80,7 @@ a:focus {
 .grid-item {
 	float: left;
 	width: 100%;
+	padding: 10px;
 }
 
 .grid-item:last-child { margin-bottom: 0; }
@@ -97,7 +99,13 @@ a:focus {
   	width: 100%;
   	height: auto;
   	border: none;
-  	margin: 0 auto;
+	margin: 0 auto;
+	border-radius: 15px;
+}
+
+figcaption {
+	border-radius: 15px;
+	overflow: hidden;	
 }
 
 .tm-textbox-padding { padding: 35px 30px; }
