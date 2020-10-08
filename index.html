@@ -1,299 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
-		<head>
-			<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<title>NSS NITR</title>
-			<!--    Favicon-->
-            <link rel="icon" href="img/logo.jpeg" type="image/png" sizes="16x16">
-			<meta name="keywords" content="footer, address, phone, icons">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>NSS NITR</title>
+        <!--    Favicon-->
+        <link rel="icon" href="img/logo.jpeg" type="image/png" sizes="16x16" />
+        <meta name="keywords" content="footer, address, phone, icons" />
 
-				
-			<!-- Including Bootstrap And Fontawsome Files -->
+        <!-- Including Bootstrap And Fontawsome Files -->
 
-			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-			<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-            <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-            
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+        />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
-            <!--Custom Stylesheets-->
-            <link rel="stylesheet" href="css/headerfooter.css">		
-            <link rel="stylesheet" href="css/homepage.css">
-            <link rel="stylesheet" href="css/noticeboard.css">
-		</head>
-	<body>
+        <!--Custom Stylesheets-->
+        <link rel="stylesheet" href="css/style1.css" />
+        <link rel="stylesheet" href="css/headerfooter.css" />
+        <link rel="stylesheet" href="css/homepage.css" />
+        <link rel="stylesheet" href="css/noticeboard.css" />
+    </head>
+    <body>
+        <!-- Better navbar -->
+        <nav>
+            <img class="logo-navbar" src="img/logo.jpeg" alt="About Image" />
+            <ul>
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
 
-		<!-- Navigation Bar -->
+                <li class="nav-item">
+                    <div class="dropdown-show">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            data-toggle="dropdown"
+                            >Team</a
+                        >
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="teams.html"
+                                >Team of 2019-20</a
+                            >
+                            <a class="dropdown-item" href="teams.html"
+                                >Team of 2018-19</a
+                            >
+                            <a class="dropdown-item" href="teams.html"
+                                >Team of 2017-18</a
+                            >
+                        </div>
+                    </div>
+                </li>
 
-		<nav class="navbar navbar-expand-md navbar-dark sticky-top">
-			<button style="background-color: #BEC9F2" class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-				<span class="navbar-toggler-icon"></span>
-			</button>	
-			<div class="collapse navbar-collapse" id="navbarResponsive">
-				<a class="navbar-logo" href="#"><img src="img/navbar-logo.png"></a>
+                <li class="nav-item">
+                    <div class="dropdown-show">
+                        <a class="nav-link" href="workplace.html">Workplaces</a>
+                    </div>
+                </li>
 
-				<ul class="navbar-nav mx-auto">
-					
-					<li class="nav-item active">
-						<a class="nav-link" href="index.html">Home</a>
-					</li>	
+                <li class="nav-item">
+                    <div class="dropdown-show">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="gallery/gallery.html"
+                            data-toggle="dropdown"
+                            >Gallery</a
+                        >
+                        <div class="dropdown-menu">
+                            <a
+                                class="dropdown-item"
+                                href="gallery/gallery20.html"
+                                >Memories of 2020</a
+                            >
+                            <a
+                                class="dropdown-item"
+                                href="gallery/gallery19.html"
+                                >Memories of 2019</a
+                            >
+                            <a
+                                class="dropdown-item"
+                                href="gallery/gallery18.html"
+                                >Memories of 2018</a
+                            >
+                            <a
+                                class="dropdown-item"
+                                href="gallery/gallery17.html"
+                                >Memories of 2017</a
+                            >
+                        </div>
+                    </div>
+                </li>
 
-					<li class="nav-item">
-						<div class="dropdown-show">
-		  					<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Team</a>
-							<div class="dropdown-menu">
-							   	<a class="dropdown-item" href="teams.html">Team of 2019-20</a>
-		    					<a class="dropdown-item" href="teams.html">Team of 2018-19</a>
-		    					<a class="dropdown-item" href="teams.html">Team of 2017-18</a>
-		  					</div>
-						</div>	
-					</li>
-
-					<li class="nav-item">
-						<div class="dropdown-show">
-		  					<a class="nav-link" href="workplace.html">Workplaces</a>
-						</div>	
-					</li>
-					
-					<li class="nav-item">
-						<div class="dropdown-show">
-		  					<a class="nav-link dropdown-toggle" href="gallery/gallery.html" data-toggle="dropdown">Gallery</a>
-							<div class="dropdown-menu">
-							    <a class="dropdown-item" href="gallery/gallery20.html">Memories of 2020</a>
-		    					<a class="dropdown-item" href="gallery/gallery19.html">Memories of 2019</a>
-		    					<a class="dropdown-item" href="gallery/gallery18.html">Memories of 2018</a>
-		    					<a class="dropdown-item" href="gallery/gallery17.html">Memories of 2017</a>
-		  					</div>
-						</div>	
-					</li>
-
-					<li class="nav-item">
-						<a class="nav-link" href="#">Login</a>
-					</li>
-				</ul>
-			</div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+            </ul>
         </nav>
-        <!--Nav bar ends-->
-
-        <!-- Content  -->
-        <!--Carousel starts-->
-        <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
-            <!--Indicators-->
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-1z" data-slide-to="1"></li>
-                <li data-target="#carousel-example-1z" data-slide-to="2"></li>
-            </ol>
-            <!--/.Indicators-->
-            <!--Slides-->
-            <div class="carousel-inner" role="listbox">
-                <!--First slide-->
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="https://library.nitrkl.ac.in/events/elpes2/530x196xnit.jpg.pagespeed.ic.BzMYoHj241.jpg" alt="First slide">
-                </div>
-                <!--/First slide-->
-                <!--Second slide-->
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="https://library.nitrkl.ac.in/events/elpes2/530x196xnit.jpg.pagespeed.ic.BzMYoHj241.jpg" alt="Second slide">
-                </div>
-                <!--/Second slide-->
-                <!--Third slide-->
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="https://library.nitrkl.ac.in/events/elpes2/530x196xnit.jpg.pagespeed.ic.BzMYoHj241.jpg" alt="Third slide">
-                </div>
-                <!--/Third slide-->
-            </div>
-            <!--/.Slides-->
-            <!--Controls-->
-            <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-            <!--/.Controls-->
-        </div>
-
-        <!--Carousel ends-->
-        
-        <!--About section start -->
+        <!-- Better navbar end -->
 
         <!--    About Section-->
-        <section class="about section" id="about">
-
-            <div class="about__container bd-grid">
-                <div class="about__img">
-                    <img src="img/logo.jpeg" alt="About Image">
-                </div>
-
-                <div>
-                    <h2 class="about__subtitle">Welcome to the National Service Scheme.</h2>
+        <section class="about" id="about">
+            <div class="about__img">
+                <img src="img/logo.jpeg" alt="About Image" />
+            </div>
+            <div class="about__container">
+                <div class="about__txts">
+                    <h2 class="about__subtitle">
+                        Welcome to the National Service Scheme.
+                    </h2>
                     <p class="about__text">
-                        The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Ministry of Youth Affairs[1] and Sports of the Government of India.
-                        Popularly known as NSS, the scheme was launched in Gandhiji's Centenary year in 1969.
-                        Aimed at developing student's personality through community service, NSS is a voluntary association of young people in Colleges,
-                        Universities and at +2 level working for a campus-community (esp. Villages) linkage.
+                        The National Service Scheme (NSS) is an Indian
+                        government-sponsored public service program conducted by
+                        the Ministry of Youth Affairs[1] and Sports of the
+                        Government of India. Popularly known as NSS, the scheme
+                        was launched in Gandhiji's Centenary year in 1969. Aimed
+                        at developing student's personality through community
+                        service, NSS is a voluntary association of young people
+                        in Colleges, Universities and at +2 level working for a
+                        campus-community (esp. Villages) linkage.
                     </p>
                     <h2 class="about__subtitle">Our mission</h2>
                     <p class="ourmission_txt">
-                        The programme aims to instill the idea of social welfare in students, and to provide service to society without bias.
-                        NSS volunteers work to ensure that everyone who is needy gets help to enhance their standard of living and lead a life of dignity.
-                        In doing so, volunteers learn from people in villages how to lead a good life despite a scarcity of resources.
-                        it also provides help in natural and man-made disasters by providing food, clothing and first aid to the disaster's victims.
+                        The programme aims to instill the idea of social welfare
+                        in students, and to provide service to society without
+                        bias. NSS volunteers work to ensure that everyone who is
+                        needy gets help to enhance their standard of living and
+                        lead a life of dignity. In doing so, volunteers learn
+                        from people in villages how to lead a good life despite
+                        a scarcity of resources. it also provides help in
+                        natural and man-made disasters by providing food,
+                        clothing and first aid to the disaster's victims.
                     </p>
                 </div>
             </div>
         </section>
 
         <!--About Section ends-->
-         <!--NOTICE BOARD    <SNEHA>-->
-         <div class="content">
-             <h1 class="header" align="center">NOTIFICATIONS</h1>
-             <marquee behavior="scroll" direction="up" scrollamount="8" onmouseover="this.setAttribute('scrollamount',0,0);this.stop();" onmouseout="this.setAttribute('scrollamount',8,0);this.start();" class="movingbody">
-                 <script>
-                     for (var i = 1; i <= 5; i++) {
-                         document.write('<p class="m-par">' + i + '. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. </p>')
-                     }
-                 </script>
-             </marquee>
-         </div>
-         <!--NOTICE BOARD OVER    SNEHA-->
-    
-
+        <!--NOTICE BOARD    <SNEHA>-->
+        <div class="content">
+            <h1 class="header" align="center">NOTIFICATIONS</h1>
+            <marquee
+                behavior="scroll"
+                direction="up"
+                scrollamount="8"
+                onmouseover="this.setAttribute('scrollamount',0,0);this.stop();"
+                onmouseout="this.setAttribute('scrollamount',8,0);this.start();"
+                class="movingbody"
+            >
+                <script>
+                    for (var i = 1; i <= 5; i++) {
+                        document.write(
+                            '<p class="m-par">' +
+                                i +
+                                ". Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. </p>"
+                        );
+                    }
+                </script>
+            </marquee>
+        </div>
+        <!--NOTICE BOARD OVER    SNEHA-->
 
         <!--Post holder start -->
-        <h1 class="postholders">- Current Postholders -</h1>
+        <h1 class="postholders">Current Postholders</h1>
         <div class="card-wrap">
-            <div class="card-column" id="top">
-                <div class="card-inner">
-                    <div class="member">
-                        <center><img src="https://nss.nitrkl.ac.in/img/team/xpmkhilar.jpg.pagespeed.ic.Vf5gvSOnBM.webp" alt=""></center>
-                    </div>
-                    <div class="member-info">
-                        <h3 class="member__title">PROF. PABITRA MOHAN KHILAR</h3>
-                        <span>PIC,NSS</span>
-                        <div class="social">
-                            <p>pmkhilar@nitrkl.ac.in</p>
-
-                        </div>
-                    </div>
+            <div class="card-inner">
+                <div class="member">
+                    <center>
+                        <img
+                            src="https://nss.nitrkl.ac.in/img/team/xpmkhilar.jpg.pagespeed.ic.Vf5gvSOnBM.webp"
+                            alt=""
+                        />
+                    </center>
+                </div>
+                <div class="member-info">
+                    <h3 class="member__title">PROF. PABITRA MOHAN KHILAR</h3>
+                    <span>PIC,NSS</span>
+                    <p>pmkhilar@nitrkl.ac.in</p>
                 </div>
             </div>
-            <div class="card-column" id="top">
-                <div class="card-inner">
-                    <div class="member">
-                        <center><img src="https://nss.nitrkl.ac.in/img/team/xJPK1.jpg.pagespeed.ic.KiaD4WjTer.webp" alt=""></center>
-                    </div>
-                    <div class="member-info">
-                        <h3 class="member__title">PROF. JYOTIPRAKASH KAR</h3>
-                        <span>CO-PIC,NSS</span>
-                        <div class="social">
-                            <p>karjp@nitrkl.ac.in</p>
-
-                        </div>
-                    </div>
+            <div class="card-inner">
+                <div class="member">
+                    <center>
+                        <img
+                            src="https://nss.nitrkl.ac.in/img/team/xJPK1.jpg.pagespeed.ic.KiaD4WjTer.webp"
+                            alt=""
+                        />
+                    </center>
+                </div>
+                <div class="member-info">
+                    <h3 class="member__title">PROF. JYOTIPRAKASH KAR</h3>
+                    <span>CO-PIC,NSS</span>
+                    <p>karjp@nitrkl.ac.in</p>
                 </div>
             </div>
-            <div class="card-column" id="top">
-                <div class="card-inner">
-                    <div class="member">
-                        <center><img src="https://nss.nitrkl.ac.in/img/team/xJPK1.jpg.pagespeed.ic.KiaD4WjTer.webp" alt=""></center>
-                    </div>
-                    <div class="member-info">
-                        <h3 class="member__title">PROF. JYOTIPRAKASH KAR</h3>
-                        <span>CO-PIC,NSS</span>
-                        <div class="social">
-                            <p>karjp@nitrkl.ac.in</p>
-
-                        </div>
-                    </div>
+            <div class="card-inner">
+                <div class="member">
+                    <center>
+                        <img
+                            src="https://nss.nitrkl.ac.in/img/team/xJPK1.jpg.pagespeed.ic.KiaD4WjTer.webp"
+                            alt=""
+                        />
+                    </center>
+                </div>
+                <div class="member-info">
+                    <h3 class="member__title">PROF. JYOTIPRAKASH KAR</h3>
+                    <span>CO-PIC,NSS</span>
+                    <p>karjp@nitrkl.ac.in</p>
                 </div>
             </div>
-            <div class="card-column" id="bottom">
-                <div class="card-inner">
-                    <div class="member">
-                        <center><img src="https://nss.nitrkl.ac.in/img/team/xjp.jpg.pagespeed.ic.ZeBmlNj5p7.webp" alt=""></center>
-                    </div>
-                    <div class="member-info">
-                        <h3 class="member__title">PROF. JALANDHAR PRADHAN</h3>
-                        <span>CO-PIC,NSS</span>
-                        <div class="social">
-                            <p>pradhanj@nitrkl.ac.in</p>
-
-
-                        </div>
-                    </div>
+            <div class="card-inner">
+                <div class="member">
+                    <center>
+                        <img
+                            src="https://nss.nitrkl.ac.in/img/team/xjp.jpg.pagespeed.ic.ZeBmlNj5p7.webp"
+                            alt=""
+                        />
+                    </center>
+                </div>
+                <div class="member-info">
+                    <h3 class="member__title">PROF. JALANDHAR PRADHAN</h3>
+                    <span>CO-PIC,NSS</span>
+                    <p>pradhanj@nitrkl.ac.in</p>
                 </div>
             </div>
-            <div class="card-column" id="bottom">
-                <div class="card-inner">
-                    <div class="member">
-                        <center><img src="https://nss.nitrkl.ac.in/img/team/xtkm.jpg.pagespeed.ic.PAzVKySj8b.webp" alt=""></center>
-                    </div>
-                    <div class="member-info">
-                        <h3 class="member__title">PROF. TAPAS KUMAR MISHRA</h3>
-                        <span>CO-PIC,NSS</span>
-                        <div class="social">
-                            <p>mishrat@nitrkl.ac.in</p>
-
-                        </div>
-                    </div>
+            <div class="card-inner">
+                <div class="member">
+                    <center>
+                        <img
+                            src="https://nss.nitrkl.ac.in/img/team/xtkm.jpg.pagespeed.ic.PAzVKySj8b.webp"
+                            alt=""
+                        />
+                    </center>
+                </div>
+                <div class="member-info">
+                    <h3 class="member__title">PROF. TAPAS KUMAR MISHRA</h3>
+                    <span>CO-PIC,NSS</span>
+                    <p>mishrat@nitrkl.ac.in</p>
                 </div>
             </div>
         </div>
 
         <!-- Post holder end-->
 
-        
-       
-  
+        <!-- Footer -->
 
-
-		<!-- Footer -->
-
-		<footer>
-			<div class="container-fluid ">
-				<div class="row">
-					<div class="contact col-lg-3">
-						<h3>About us</h3>
-						<p>National Service Scheme(NSS), an initiative by the Government of India, provides hands-on experience in community services to young students.</p>
-					</div>
-					<div class="contact col-lg-6">
-						<h3>Contact</h3>
-						<div class="row">
-							<div class="col-lg-6">	
-								<h5>Prof. Pabitra M. Khilar</h5>
-								<h5>PIC, NSS</h5>
-								<a class="btn" type="button" href="mailto: pmkhilar@nitrkl.ac.in"><span class="fa fa-envelope"></span> : pmkhilar@nitrkl.ac.in</a>
-							</div>
-							<div class="col-lg-6">
-								<h5>Mr. Jagannath Sahoo</h5>
-								<h5>Chief co-ordinator, NSS</h5>
-								<a class="btn" type="button" href="mailto: jsahoo110@gmail.com"><span class="fa fa-envelope"></span> : jsahoo110@gmail.com</a>
-								<a class="btn" type="button" href="tel: +91 8458061139"><span class="fa fa-phone"></span> : +91 8458061139</a>
-							</div>
-						</div>
-					</div>
-					<div class="contact col-lg-3">
-						<h5>Follow us on!</h5>
-						<a class="btn" type="button" href="#"><span class="fab fa-facebook fa-2x"></span></a>
-						<a class="btn" type="button" href="#"><span class="fab fa-instagram fa-2x"></span></a>
-						<a class="btn" type="button" href="#"><span class="fab fa-twitter fa-2x"></span></a>
-						<a class="btn" type="button" href="#"><span class="fab fa-github fa-2x"></span></a>
-					</div>															
-				</div>	
-			</div>
-			<div class="bottom container-fluid col-12">
-				<p>&copy;2020 National Service Scheme | National Institute of Technology, Rourkela | All Rights Reserved.</p>
-				<p style="text-align: right;">Designed by <a href="https://www.instagram.com/webwiz.nitr/">WebWiz</a></p>
-			</div>				
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div style="margin: 0.5em" class="contact col-lg-3">
+                        <h3>About us</h3>
+                        <p>
+                            National Service Scheme(NSS), an initiative by the
+                            Government of India, provides hands-on experience in
+                            community services to young students.
+                        </p>
+                    </div>
+                    <div class="contact col-lg-6">
+                        <h3>Contact</h3>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h5>Prof. Pabitra M. Khilar</h5>
+                                <h5>PIC, NSS</h5>
+                                <a
+                                    class="btn"
+                                    type="button"
+                                    href="mailto: pmkhilar@nitrkl.ac.in"
+                                    ><span class="fa fa-envelope"></span> :
+                                    pmkhilar@nitrkl.ac.in</a
+                                >
+                            </div>
+                            <div class="col-lg-6">
+                                <h5>Mr. Jagannath Sahoo</h5>
+                                <h5>Chief co-ordinator, NSS</h5>
+                                <a
+                                    class="btn"
+                                    type="button"
+                                    href="mailto: jsahoo110@gmail.com"
+                                    ><span class="fa fa-envelope"></span> :
+                                    jsahoo110@gmail.com</a
+                                >
+                                <a
+                                    class="btn"
+                                    type="button"
+                                    href="tel: +91 8458061139"
+                                    ><span class="fa fa-phone"></span> : +91
+                                    8458061139</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact col-lg-3">
+                        <h5>Follow us on!</h5>
+                        <a class="btn" type="button" href="#"
+                            ><span class="fab fa-facebook fa-2x"></span
+                        ></a>
+                        <a class="btn" type="button" href="#"
+                            ><span class="fab fa-instagram fa-2x"></span
+                        ></a>
+                        <a class="btn" type="button" href="#"
+                            ><span class="fab fa-twitter fa-2x"></span
+                        ></a>
+                        <a class="btn" type="button" href="#"
+                            ><span class="fab fa-github fa-2x"></span
+                        ></a>
+                    </div>
+                </div>
+            </div>
+            <div
+                style="background-color: #261e4b"
+                class="bottom container-fluid col-12"
+            >
+                <p>
+                    &copy;2020 National Service Scheme | National Institute of
+                    Technology, Rourkela | All Rights Reserved.
+                </p>
+                <p style="text-align: right">
+                    Designed by
+                    <a href="https://www.instagram.com/webwiz.nitr/">WebWiz</a>
+                </p>
+            </div>
         </footer>
-        
-        
-	</body>
+    </body>
 </html>
