@@ -120,6 +120,7 @@ body {
   color         : var(--primary-color);
   padding       : 0 5rem;
   padding-bottom: 2rem;
+  text-align: justify;
 }
 
 .about__img {
@@ -134,7 +135,6 @@ ourmission_txt {
 .about__img img {
   width        : 140px;
   border-radius: .5rem;
-
 }
 
 .section-title {
@@ -158,19 +158,26 @@ footer a {
   text-align   : center;
 }
 
+.contact h3 {
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 11px;
+}
+
 .form {
   padding-left : 3em;
   padding-right: 7em;
 }
 
-.bottom {
-  margin-bottom   : -2%;
-  background-color: #2A2A2A;
-  text-align      : center;
-  padding-top     : 0.75em;
-  height          : 5em;
-
-}
+/* .bottom {
+    margin-bottom: -2%;
+    background-color: #2A2A2A;
+    text-align: center;
+    padding-top: 0.75em;
+    height: 5em;
+    
+} */
 
 /*Media Queries for Footer*/
 
@@ -217,6 +224,8 @@ h3 {
   position  : relative;
   z-index   : 0;
   transition: transform .4s ease;
+  margin-bottom: 30px !important;
+  padding:20px !important;
 }
 
 .card-inner {
@@ -285,8 +294,35 @@ h3 {
     width : 90%;
     margin: 0 auto;
   }
+
+  .carousel{
+    max-height: 290px;
+    object-fit: contain;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+@media screen and (max-width: 767px) {
+    .card-column {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #top,#bottom {
+        width: 90%;
+    }
 }
 
+@media screen and (min-width: 768px) {
+    .card-wrap {
+        display: flex;
+        padding: 5%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card-column {
+        width: 33.333%;
+    }
+
+}
 #top {
   margin    : 1.5%;
   resize    : both;
@@ -331,9 +367,17 @@ h2 {
   text-align      : center;
   padding-bottom  : 2rem;
   background-color: white;
-
+  clear: both;
 }
 
 .member-info {
   color: var(--primary-color);
+}
+
+
+@media (max-width: 767px) {
+    #about {
+        width: 100%;
+        float: none;
+    }
 }

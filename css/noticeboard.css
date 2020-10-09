@@ -8,19 +8,19 @@ body{
  
 }
 .content{
-	width: 300px;
-	margin:  -8% 0 0 5%;
+	width: 25%;
 	box-shadow: 1px 1px 10px 2px rgba(17, 28, 72, 0.76);
 	border-radius: 5px; 
 	overflow: hidden;
     display: inline-block;
     background-color: white;
-    
+    float: left;
 }
 .header{
 	background: #000080;
 	color: white;
 	padding: 15px 0px;
+	font-size: 1rem;
 }
 
 .movingbody{
@@ -31,4 +31,13 @@ body{
 	text-align: center;
 	padding: 6px;
 	border-bottom: 1px solid #afafaf; 
+}
+
+@media (max-width: 767px) {
+	.content {
+		width: 90%;
+		margin: 5%;
+		box-sizing: border-box;
+		float: none;
+	}
 }

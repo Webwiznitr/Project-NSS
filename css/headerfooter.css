@@ -78,6 +78,9 @@ footer{
 background-color:#3f3f3f;
 color: #d5d5d5;
 padding-top: 2rem;
+font-weight: 500;
+font-size: 16px;
+
 }
 
 footer a{
@@ -85,15 +88,18 @@ color: #d5d5d5;
 }
 
 .contact, .address{
-
-  padding-right: 4em;
   text-align: center;
+  font-size: 14px;
 }
 
 .form{
-
+ 
   padding-left: 3em;
   padding-right: 7em;
+}
+
+.col-lg-6 > h5{
+  font-size: 14px;
 }
 
 .bottom{
@@ -102,7 +108,14 @@ color: #d5d5d5;
   text-align: center;
   padding-top: 0.75em;
   height: 5em;
+  font-size: 12px !important;
 }
+
+.btn{
+  font-size: 12px;
+  text-decoration: none;
+}
+
 
 /*Media Queries for Footer*/
 
@@ -111,6 +124,7 @@ color: #d5d5d5;
 .bottom{
   
   height: 7em;
+ 
 }
 
 }
@@ -118,7 +132,7 @@ color: #d5d5d5;
 @media (max-width: 432px){
 
 .bottom{
-  
+ 
   height: 9.5em;
 }
 

@@ -66,6 +66,7 @@ ul {
   letter-spacing  : 0.5px;
   font-weight     : 700;
   transition      : all 0.3s;
+  margin-left:20px;
 }
 
 #tabs ul li a:hover {
@@ -147,10 +148,18 @@ h3 {
 
 /* Responsive Style */
 
-
+.listOfWp{
+  margin-left: -10%;
+}
 @media (max-width: 768px) {
   .tabs-content {
     margin-left: 0px;
     margin-top : 30px;
+  }
+}
+
+@media (max-width: 580px) {
+  .listOfWp{
+    margin-left: 0;
   }
 }
