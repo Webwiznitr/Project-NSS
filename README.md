@@ -4,7 +4,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-# A website for National Social Service (NSS) NIT Rourkela Chapter. 
+# A website for National Social Service Scheme  (NSS) NIT Rourkela Chapter. 
 
 [![Starware](https://img.shields.io/badge/Starware-⭐-black?labelColor=f9b00d)](https://github.com/zepfietje/starware)
 
