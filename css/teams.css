@@ -235,23 +235,41 @@ td {
   color: #fff;
 }
 
+thead,
 th {
   text-align: left;
   background-color: #091d36;
 }
 
-thead {
-  th {
-    background-color: #55608f;
-  }
-}
+/* 
+thead,
+th {
+  background-color: #55608f;
+} 
+*/
 
+/* 
 td:hover {
   background-color: rgba(255, 255, 255, 0.6);
+} 
+*/
+
+tr:hover td {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #091d36;
+}
+
+tr:hover a {
+  color: #091d36;
 }
 
 a {
   color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #091d36;
 }
 
 @media screen and (max-width: 1110px) {
