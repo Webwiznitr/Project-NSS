@@ -143,13 +143,36 @@ ourmission_txt {
 
 /*Footer*/
 footer {
-  background-color: #3f3f3f;
+  padding: 2em;
+  background-color: #1A1A1A;
   color           : #d5d5d5;
-  padding-top     : 2rem;
+  overflow: hidden;
+}
+
+footer h3 {
+  margin-bottom: 2em;
+}
+
+footer .bottom {
+  background-color: #1A1A1A;
+  padding-top: 2.5em;
+}
+
+footer p {
+  line-height: 1.8em;
+  font-weight: lighter;
+}
+
+.about-section h3, .about-section p{
+  text-align: left;
 }
 
 footer a {
   color: #d5d5d5;
+}
+
+.col-contact:nth-child(1){
+  border-right: 1px solid rgb(61, 61, 61);
 }
 
 .contact,
@@ -180,10 +203,29 @@ footer a {
 } */
 
 /*Media Queries for Footer*/
+@media (max-width: 990px) {
+
+  .col-contact:nth-child(1){
+    border: none;
+    border-bottom: 1px solid rgb(61, 61, 61);
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+  }
+  .about-section h3, .about-section p{
+    text-align: center;
+    margin: auto;
+    max-width: 400px;
+  }
+  .about-section p {
+    margin: 1em auto;
+  }
+}
 
 @media (max-width: 793px) {
 
   .bottom {
+    padding-top: 3em;
     height: 7em;
   }
 }
