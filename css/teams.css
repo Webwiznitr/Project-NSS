@@ -58,11 +58,16 @@ h3 {
   background: #fff;
   /* position: relative; */
   /* z-index: 0; */
-  /* transition: transform 0.4s ease; */
+  transition: transform 0.4s ease;
   transition: 0.3s;
   /* padding: 20px; */
   /* margin-bottom: 30px !important; */
   margin: 2rem;
+}
+
+.card-column:hover {
+  transform: scale(1.02);
+  z-index: 1;
 }
 
 .card-inner {
@@ -110,13 +115,6 @@ h3 {
   opacity: 1;
   visibility: visible;
   transform: translate(0px);
-} 
-*/
-
-/* 
-.card-column:hover {
-  transform: scale(1.05);
-  z-index: 1;
 } 
 */
 
@@ -277,28 +275,37 @@ a:hover {
     width: 50%;
   }
 
+  /* 
   #top {
     width: 40%;
-  }
+  } 
+  */
 
+  /* 
   #bottom {
     width: 40%;
     margin: 1%;
-  }
+  } 
+  */
 }
 
 @media screen and (max-width: 650px) {
   .card-column {
     width: 90%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin-bottom: 0.8rem;
   }
 
+  /* 
   #top {
     width: 80%;
-  }
+  } 
+  */
 
+  /* 
   #bottom {
     width: 80%;
     margin: 1%;
-  }
+  } 
+  */
 }
