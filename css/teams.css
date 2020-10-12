@@ -71,9 +71,11 @@ h3 {
 }
 
 .card-inner span {
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: 16px;
   font-weight: 500;
-  transform: translateY(10px);
+  /* transform: translateY(10px); */
+  color: #468697;
 }
 
 .card-inner :hover {
