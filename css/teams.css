@@ -95,20 +95,26 @@ h3 {
   padding: 8px;
 }
 
+/* 
 .card-column:hover .social {
   opacity: 1;
   visibility: visible;
   transform: translate(0px);
-}
+} 
+*/
 
+/* 
 .card-column:hover {
   transform: scale(1.05);
   z-index: 1;
-}
+} 
+*/
 
+/* 
 .social i {
   padding: 8px;
-}
+} 
+*/
 
 .member img {
   border-radius: 50%;
@@ -127,6 +133,7 @@ h3 {
   resize: both;
 }
 
+/* 
 #top {
   margin: 1.5%;
   resize: both;
@@ -135,8 +142,10 @@ h3 {
   box-shadow: 0 10px 10px -5px;
   overflow: auto;
   resize: both;
-}
+} 
+*/
 
+/* 
 #bottom {
   margin: 1.5%;
   resize: both;
@@ -146,8 +155,10 @@ h3 {
   box-shadow: 0 10px 10px -5px;
   overflow: auto;
   resize: both;
-}
+} 
+*/
 
+/* 
 .card-wrap {
   width: 100%;
   overflow: auto;
@@ -155,7 +166,8 @@ h3 {
   padding-left: 7.5%;
   padding-top: 2%;
   padding-bottom: 2%;
-}
+} 
+*/
 
 h2 {
   width: 100%;
