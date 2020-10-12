@@ -33,9 +33,11 @@ h3 {
 
 .card-wrap {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  flex-direction: row;
-  margin: 3rem;
+  /* flex-direction: row; */
+  /* margin: 3rem; */
+  padding: 0 2rem;
 }
 
 .card-column {
