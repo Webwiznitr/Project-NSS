@@ -83,10 +83,16 @@ h3 {
 }
 
 .social {
-  transition: opacity 0.4s ease, transform 0.4s ease;
-  transform: translateY(10px);
-  opacity: 0;
-  visibility: hidden;
+  /* transition: opacity 0.4s ease, transform 0.4s ease; */
+  /* transform: translateY(10px); */
+  /* opacity: 0; */
+  /* visibility: hidden; */
+  background: #091d36;
+  margin-top: 12px;
+  color: #ddd;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
 }
 
 .card-column:hover .social {
