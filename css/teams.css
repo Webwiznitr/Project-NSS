@@ -116,6 +116,36 @@ h3 {
 } 
 */
 
+.social svg {
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  transform: translateY(2px);
+  opacity: 1;
+  visibility: visible;
+}
+
+.card-column:hover .social svg {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.social p {
+  position: absolute;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.card-column:hover .social p {
+  opacity: 1;
+  visibility: visible;
+}
+
+.card-column:hover .social {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0px);
+}
+
 .member img {
   border-radius: 50%;
   width: 200px;
