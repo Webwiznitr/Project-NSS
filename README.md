@@ -3,11 +3,11 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-Certifiate generator
+
+# A website for National Service Scheme  (NSS) NIT Rourkela Chapter. 
 
 [![Starware](https://img.shields.io/badge/Starware-⭐-black?labelColor=f9b00d)](https://github.com/zepfietje/starware)
 
-The goal of the project is to develop and design a certficate generator website. In the final product when certain information like First Name, Last Name, date of issue of certificate and purpose of certificate is provided through input fields of a website it generates a certificate.Along with these for a good review it should have download certificate and share option embedded to it.
 
 ### We are really excited to see your awesome PRs.
 
