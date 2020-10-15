@@ -143,11 +143,15 @@ ourmission_txt {
 footer {
   background-color: #3f3f3f;
   color: #d5d5d5;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 footer a {
   color: #d5d5d5;
+}
+
+footer .bottom p {
+  margin-bottom: 0;
 }
 
 .contact,
@@ -161,6 +165,43 @@ footer a {
   font-weight: 400;
   font-size: 1rem;
   margin-top: 11px;
+}
+
+@media (max-width: 793px) {
+  .about {
+    width: 100%;
+  }
+  .contact {
+    padding: 10px;
+  }
+
+  .postholders {
+    padding: 50px 50px 0;
+  }
+}
+
+@media (min-width: 800px) {
+  .contact {
+    padding: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  footer .row {
+    display: flex;
+    align-items: baseLINE;
+    padding: 0 40px 1rem;
+  }
+
+  footer .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    padding-top: 0;
+  }
 }
 
 .form {
@@ -179,11 +220,11 @@ footer a {
 
 /*Media Queries for Footer*/
 
-@media (max-width: 793px) {
+/* @media (max-width: 793px) {
   .bottom {
     height: 7em;
   }
-}
+} */
 
 @media (max-width: 432px) {
   .bottom {
