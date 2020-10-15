@@ -1,26 +1,26 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+﻿@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
 
 :root {
-  --primary-color: #091D36;
+  --primary-color: #091d36;
 }
 
 html,
 body {
-  font-family     : 'Poppins', 'sans-serif';
-  background-color: #FFFFFF;
+  font-family: "Poppins", "sans-serif";
+  background-color: #ffffff;
 }
 
 /*Nav Bar*/
 
 .navbar {
   background-color: var(--primary-color);
-  padding         : 0;
-  height          : 70px;
+  padding: 0;
+  height: 70px;
 }
 
 .navbar-collapse {
   background-color: var(--primary-color);
-  text-align      : center;
+  text-align: center;
 }
 
 .navbar img {
@@ -32,23 +32,22 @@ body {
 }
 
 .navbar-nav {
-  height     : inherit;
+  height: inherit;
   align-items: center;
 }
 
 .navbar-nav li {
-  color  : #000000;
+  color: #000000;
   display: inline-block;
-  height : 100%;
+  height: 100%;
   padding: 0;
 }
 
 .nav-link {
-  float      : left;
-  font-size  : 1.1em;
-  height     : inherit;
+  font-size: 1.1em;
+  height: inherit;
   align-items: center;
-  display    : flex;
+  display: flex;
 }
 
 .nav-link:hover {
@@ -63,23 +62,23 @@ body {
 
 .dropdown-show {
   position: relative;
-  display : inline-block;
-  height  : 100%;
-  margin  : 0;
-  padding : 0;
+  display: inline-block;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .dropdown-menu {
-  display         : none;
-  position        : absolute;
+  display: none;
+  position: absolute;
   background-color: #fafafa;
-  min-width       : 160px;
-  box-shadow      : 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index         : 1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 .dropdown-menu a {
-  color  : black;
+  color: black;
   padding: 12px 16px;
   display: block;
 }
@@ -90,42 +89,41 @@ body {
 
 .dropdown-show:hover .dropdown-menu {
   display: block;
-  margin : 0;
+  margin: 0;
   padding: 0;
 }
 
 /*About Section*/
 .about {
   background-color: white;
-  display         : inline-block;
-  width           : 70%;
-  margin-top      : -22.5%;
+  display: inline-block;
+  width: 70%;
+  margin-top: -22.5%;
 }
 
 .about__container {
-  row-gap   : 2rem;
+  row-gap: 2rem;
   text-align: center;
-
 }
 
 .about__subtitle {
-  margin-top   : 0%;
+  margin-top: 0%;
   margin-bottom: var(--mb-2);
-  font-weight  : 600;
-  color        : var(--primary-color);
-  padding      : 2% 0;
+  font-weight: 600;
+  color: var(--primary-color);
+  padding: 2% 0;
 }
 
 .about p {
-  color         : var(--primary-color);
-  padding       : 0 5rem;
+  color: var(--primary-color);
+  padding: 0 5rem;
   padding-bottom: 2rem;
   text-align: justify;
 }
 
 .about__img {
   justify-self: center;
-  display     : inline-block;
+  display: inline-block;
 }
 
 ourmission_txt {
@@ -133,8 +131,8 @@ ourmission_txt {
 }
 
 .about__img img {
-  width        : 140px;
-  border-radius: .5rem;
+  width: 140px;
+  border-radius: 0.5rem;
 }
 
 .section-title {
@@ -143,6 +141,7 @@ ourmission_txt {
 
 /*Footer*/
 footer {
+
   padding: 2em;
   background-color: #1A1A1A;
   color           : #d5d5d5;
@@ -165,6 +164,8 @@ footer p {
 
 .about-section h3, .about-section p{
   text-align: left;
+
+
 }
 
 footer a {
@@ -178,18 +179,18 @@ footer a {
 .contact,
 .address {
   padding-right: 4em;
-  text-align   : center;
+  text-align: center;
 }
 
 .contact h3 {
-    color: white;
-    font-weight: 400;
-    font-size: 1rem;
-    margin-top: 11px;
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 11px;
 }
 
 .form {
-  padding-left : 3em;
+  padding-left: 3em;
   padding-right: 7em;
 }
 
@@ -223,7 +224,6 @@ footer a {
 }
 
 @media (max-width: 793px) {
-
   .bottom {
     padding-top: 3em;
     height: 7em;
@@ -231,80 +231,84 @@ footer a {
 }
 
 @media (max-width: 432px) {
-
   .bottom {
     height: 9.5em;
   }
 }
 
 h1 {
-  font-family : Verdana;
+  font-family: Verdana;
   font-variant: small-caps;
-  width       : 100%;
-  color       : var(--primary-color);
-  padding     : 1.5%;
+  width: 100%;
+  color: var(--primary-color);
+  padding: 1.5%;
 }
 
 h3 {
   font-family: Verdana;
-  color      : #3a3b42;
-  font-size  : 70%;
+  color: #fff;
+  font-size: 70%;
 }
 
 /*Cards*/
 
 .card-wrap {
-  display       : flex;
-  flex-wrap     : wrap;
+  display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
-  background    : linear-gradient(90deg, rgb(3, 0, 47) 0%, rgb(2, 2, 67) 50%, rgb(5, 43, 105) 96%);
+  background: linear-gradient(
+    90deg,
+    rgb(3, 0, 47) 0%,
+    rgb(2, 2, 67) 50%,
+    rgb(5, 43, 105) 96%
+  );
 }
 
 .card-column {
-  width     : 33.33333%;
+  width: 33.33333%;
   background: var(--primary-color);
-  position  : relative;
-  z-index   : 0;
-  transition: transform .4s ease;
+  position: relative;
+  z-index: 0;
+  transition: transform 0.4s ease;
   margin-bottom: 30px !important;
-  padding:20px !important;
+  padding: 20px !important;
 }
 
 .card-inner {
   text-align: center;
-  padding   : 24px 12px;
-  box-shadow: 0px 1px 16px rgba(163, 80, 234, 0.25);
+  padding: 24px 12px;
 }
 
 .card-inner h3 {
-  font-size  : 25px;
+  font-size: 25px;
   font-weight: 500;
-  margin     : 0;
-  margin-top : 24px;
+  margin: 0;
+  margin-top: 24px;
 }
 
 .card-inner span {
-  font-size  : 14px;
+  font-size: 14px;
   font-weight: 500;
-  transform  : translateY(10px);
+  transform: translateY(10px);
+  color: #fff;
 }
 
 .social {
-  transition: opacity .4s ease, transform .4s ease;
-  transform : translateY(10px);
-  opacity   : 0;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  transform: translateY(10px);
+  opacity: 0;
   visibility: hidden;
 }
 
 .card-column:hover .social {
-  opacity   : 1;
+  opacity: 1;
   visibility: visible;
-  transform : translate(0px);
+  transform: translate(0px);
 }
 
 .card-column:hover {
   transform: scale(1.05);
-  z-index  : 1;
+  z-index: 1;
 }
 
 .social i {
@@ -313,19 +317,18 @@ h3 {
 
 .member img {
   border-radius: 50%;
-  width        : 200px;
-  overflow     : auto;
-  resize       : both;
+  width: 200px;
+  overflow: auto;
+  resize: both;
 }
 
 .user img {
-  width   : 200px;
+  width: 200px;
   overflow: auto;
-  resize  : both;
+  resize: both;
 }
 
 @media screen and (max-width: 1110px) {
-
   .card-column {
     width: 50%;
   }
@@ -333,93 +336,136 @@ h3 {
 
 @media screen and (max-width: 600px) {
   .card-column {
-    width : 90%;
+    width: 90%;
     margin: 0 auto;
   }
 
-  .carousel{
+  .carousel {
     max-height: 290px;
     object-fit: contain;
     overflow: hidden;
     margin-bottom: 60px;
-}
-@media screen and (max-width: 767px) {
+  }
+  @media screen and (max-width: 767px) {
     .card-column {
-        width: 90%;
-        margin: 0 auto;
+      width: 90%;
+      margin: 0 auto;
     }
-    #top,#bottom {
-        width: 90%;
+    #top,
+    #bottom {
+      width: 90%;
     }
-}
+  }
 
-@media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .card-wrap {
-        display: flex;
-        padding: 5%;
-        flex-wrap: wrap;
-        justify-content: center;
+      display: flex;
+      padding: 5%;
+      flex-wrap: wrap;
+      justify-content: center;
     }
     .card-column {
-        width: 33.333%;
+      width: 33.333%;
     }
+  }
+  #top {
+    margin: 1.5%;
+    resize: both;
+    background: #f7f7f7;
+    width: 25%;
+    overflow: auto;
+    resize: both;
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.6);
+  }
 
-}
-#top {
-  margin    : 1.5%;
-  resize    : both;
-  background: #f7f7f7;
-  width     : 25%;
-  overflow  : auto;
-  resize    : both;
-  box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.6);
-}
+  #bottom {
+    margin: 1.5%;
+    resize: both;
+    background: #f7f7f7;
+    width: 27%;
+    margin-left: 8%;
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.6);
+    overflow: auto;
+    resize: both;
+  }
 
-#bottom {
-  margin     : 1.5%;
-  resize     : both;
-  background : #f7f7f7;
-  width      : 27%;
-  margin-left: 8%;
-  box-shadow : 5px 5px 15px rgba(255, 255, 255, 0.6);
-  overflow   : auto;
-  resize     : both;
-}
+  .card-wrap {
+    width: 100%;
+    overflow: auto;
+    resize: both;
+    padding-left: 7.5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
 
-.card-wrap {
-  width         : 100%;
-  overflow      : auto;
-  resize        : both;
-  padding-left  : 7.5%;
-  padding-top   : 2%;
-  padding-bottom: 2%;
+  h2 {
+    width: 100%;
+    display: block;
+    font-family: Arial;
+    font-size: 180%;
+    text-align: center;
+    color: white;
+  }
 
-}
+  .postholders {
+    text-align: center;
+    padding-bottom: 2rem;
+    background-color: white;
+    clear: both;
+  }
 
-h2 {
-  width      : 100%;
-  display    : block;
-  font-family: Arial;
-  font-size  : 180%;
-  text-align : center;
-  color      : white;
+  .member-info {
+    color: #fff;
+  }
+
+  @media (max-width: 767px) {
+    #about {
+      width: 100%;
+    }
+  }
 }
 
 .postholders {
-  text-align      : center;
-  padding-bottom  : 2rem;
-  background-color: white;
-  clear: both;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+  background: #091d36;
+  padding: 50px;
 }
 
-.member-info {
-  color: var(--primary-color);
+.postholders h1 {
+  color: #fff;
+  text-align: center;
 }
 
+.postholders .content {
+  box-shadow: none;
+  display: flex;
+  width: fit-content;
+  background: transparent;
+  justify-content: space-between;
+}
 
-@media (max-width: 767px) {
-    #about {
-        width: 100%;
-        float: none;
-    }
+.postholders .content .card-inner .member center img {
+  opacity: 1;
+  transition: opacity 0.4s;
+
+  height: 180px;
+  width: 180px;
+}
+
+.postholders .content .card-inner .member center img:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 1200px) {
+  .postholders .content {
+    display: flex;
+    flex-direction: column;
+  }
+  .postholders .content .card-inner {
+    margin-right: 0;
+  }
 }
