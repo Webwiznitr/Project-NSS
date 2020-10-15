@@ -121,6 +121,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "liamortiz",
+      "name": "Leamsi Escribano",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/64574554?v=4",
+      "profile": "https://escribano.app",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
