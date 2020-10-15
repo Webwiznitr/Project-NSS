@@ -1,6 +1,6 @@
 # Project-NSS 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -47,17 +47,17 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/sayna3311"><img src="https://avatars2.githubusercontent.com/u/67572440?v=4" width="100px;" alt=""/><br /><sub><b>Sayna Parida</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-NSS/commits?author=sayna3311" title="Code">💻</a></td>
     <td align="center"><a href="https://abhibhaw.team"><img src="https://avatars3.githubusercontent.com/u/39991296?v=4" width="100px;" alt=""/><br /><sub><b>Abhibhaw Asthana</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-NSS/commits?author=abhibhaw" title="Code">💻</a></td>
+    <td align="center"><a href="https://moesiomarcelino.github.io"><img src="https://avatars3.githubusercontent.com/u/37598129?v=4" width="100px;" alt=""/><br /><sub><b>Moesio Marcelino</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-NSS/commits?author=MoesioMarcelino" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/EntwistleOx"><img src="https://avatars3.githubusercontent.com/u/50211333?v=4" width="100px;" alt=""/><br /><sub><b>Juan Díaz</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-NSS/commits?author=EntwistleOx" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/amoghayalgi"><img src="https://avatars2.githubusercontent.com/u/69986770?v=4" width="100px;" alt=""/><br /><sub><b>amoghayalgi</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-NSS/commits?author=amoghayalgi" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/SHRAVANNARAYAN"><img src="https://avatars0.githubusercontent.com/u/57035719?v=4" width="100px;" alt=""/><br /><sub><b>SHRAVANNARAYAN</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-NSS/commits?author=SHRAVANNARAYAN" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/snehaM2210"><img src="https://avatars2.githubusercontent.com/u/68493940?v=4" width="100px;" alt=""/><br /><sub><b>SNEHA MALLIK</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-NSS/commits?author=snehaM2210" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/uditanshu23"><img src="https://avatars1.githubusercontent.com/u/68052031?v=4" width="100px;" alt=""/><br /><sub><b>Uditanshu Satpathy</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-NSS/commits?author=uditanshu23" title="Code">💻</a></td>
     <td align="center"><a href="http://aliferous.xyz/"><img src="https://avatars3.githubusercontent.com/u/63084088?v=4" width="100px;" alt=""/><br /><sub><b>Sumana Basu</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-NSS/commits?author=sumana2001" title="Code">💻</a></td>
     <td align="center"><a href="http://aliferous.xyz/"><img src="https://avatars2.githubusercontent.com/u/67703407?v=4" width="100px;" alt=""/><br /><sub><b>Aniket Pal</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-NSS/commits?author=Aniket762" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/uditanshu23"><img src="https://avatars1.githubusercontent.com/u/68052031?v=4" width="100px;" alt=""/><br /><sub><b>Uditanshu Satpathy</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-NSS/commits?author=uditanshu23" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/snehaM2210"><img src="https://avatars2.githubusercontent.com/u/68493940?v=4" width="100px;" alt=""/><br /><sub><b>SNEHA MALLIK</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-NSS/commits?author=snehaM2210" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/SHRAVANNARAYAN"><img src="https://avatars0.githubusercontent.com/u/57035719?v=4" width="100px;" alt=""/><br /><sub><b>SHRAVANNARAYAN</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-NSS/commits?author=SHRAVANNARAYAN" title="Code">💻</a></td>
-    </tr>
-    <tr>
-    <td align="center"><a href="https://github.com/amoghayalgi"><img src="https://avatars2.githubusercontent.com/u/69986770?v=4" width="100px;" alt=""/><br /><sub><b>amoghayalgi</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-NSS/commits?author=amoghayalgi" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/EntwistleOx"><img src="https://avatars3.githubusercontent.com/u/50211333?v=4" width="100px;" alt=""/><br /><sub><b>Juan Díaz</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-NSS/commits?author=EntwistleOx" title="Code">💻</a></td>
-    <td align="center"><a href="https://moesiomarcelino.github.io"><img src="https://avatars3.githubusercontent.com/u/37598129?v=4" width="100px;" alt=""/><br /><sub><b>Moesio Marcelino</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-NSS/commits?author=MoesioMarcelino" title="Code">💻</a></td>
-
+    <td align="center"><a href="https://www.linkedin.com/in/rafaelaqueiroz21/"><img src="https://avatars3.githubusercontent.com/u/42815135?v=4" width="100px;" alt=""/><br /><sub><b>Rafaela Queiroz</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-NSS/commits?author=rafaela-queiroz" title="Code">💻</a></td>
   </tr>
 </table>
 
