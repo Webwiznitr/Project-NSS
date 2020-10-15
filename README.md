@@ -1,6 +1,6 @@
 # Project-NSS 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -59,6 +59,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://aliferous.xyz/"><img src="https://avatars2.githubusercontent.com/u/67703407?v=4" width="100px;" alt=""/><br /><sub><b>Aniket Pal</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-NSS/commits?author=Aniket762" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/rafaelaqueiroz21/"><img src="https://avatars3.githubusercontent.com/u/42815135?v=4" width="100px;" alt=""/><br /><sub><b>Rafaela Queiroz</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-NSS/commits?author=rafaela-queiroz" title="Code">💻</a></td>
     <td align="center"><a href="http://joelhatmaker.com"><img src="https://avatars3.githubusercontent.com/u/4692157?v=4" width="100px;" alt=""/><br /><sub><b>Joel Hatmaker</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-NSS/commits?author=Jojohomefries" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/mujtabax"><img src="https://avatars0.githubusercontent.com/u/37059611?v=4" width="100px;" alt=""/><br /><sub><b>mujtabax</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-NSS/commits?author=mujtabax" title="Code">💻</a></td>
   </tr>
 </table>
 
