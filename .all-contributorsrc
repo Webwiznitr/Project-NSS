@@ -24,6 +24,15 @@
       ]
     },
     {
+      "login": "MoesioMarcelino",
+      "name": "Moesio Marcelino",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/37598129?v=4",
+      "profile": "https://moesiomarcelino.github.io",
+      "contributions": [
+        "code"
+      ]
+     },
+     {
       "login": "EntwistleOx",
       "name": "Juan Díaz",
       "avatar_url": "https://avatars3.githubusercontent.com/u/50211333?v=4",
@@ -82,6 +91,7 @@
       "name": "Aniket Pal",
       "avatar_url": "https://avatars2.githubusercontent.com/u/67703407?v=4",
       "profile": "http://aliferous.xyz/",
+
       "contributions": [
         "code"
       ]
