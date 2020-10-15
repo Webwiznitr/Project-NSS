@@ -53,7 +53,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/snehaM2210"><img src="https://avatars2.githubusercontent.com/u/68493940?v=4" width="100px;" alt=""/><br /><sub><b>SNEHA MALLIK</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-NSS/commits?author=snehaM2210" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/SHRAVANNARAYAN"><img src="https://avatars0.githubusercontent.com/u/57035719?v=4" width="100px;" alt=""/><br /><sub><b>SHRAVANNARAYAN</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-NSS/commits?author=SHRAVANNARAYAN" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/amoghayalgi"><img src="https://avatars2.githubusercontent.com/u/69986770?v=4" width="100px;" alt=""/><br /><sub><b>amoghayalgi</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-NSS/commits?author=amoghayalgi" title="Code">💻</a></td>
-    </br>
+    </tr>
+    <tr>
     <td align="center"><a href="https://github.com/EntwistleOx"><img src="https://avatars3.githubusercontent.com/u/50211333?v=4" width="100px;" alt=""/><br /><sub><b>Juan Díaz</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-NSS/commits?author=EntwistleOx" title="Code">💻</a></td>
     <td align="center"><a href="https://moesiomarcelino.github.io"><img src="https://avatars3.githubusercontent.com/u/37598129?v=4" width="100px;" alt=""/><br /><sub><b>Moesio Marcelino</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-NSS/commits?author=MoesioMarcelino" title="Code">💻</a></td>
 
