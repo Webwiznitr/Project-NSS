@@ -219,9 +219,28 @@ footer .bottom p {
 } */
 
 /*Media Queries for Footer*/
+@media (max-width: 990px) {
+
+  .col-contact:nth-child(1){
+    border: none;
+    border-bottom: 1px solid rgb(61, 61, 61);
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+  }
+  .about-section h3, .about-section p{
+    text-align: center;
+    margin: auto;
+    max-width: 400px;
+  }
+  .about-section p {
+    margin: 1em auto;
+  }
+}
 
 /* @media (max-width: 793px) {
   .bottom {
+    padding-top: 3em;
     height: 7em;
   }
 } */
