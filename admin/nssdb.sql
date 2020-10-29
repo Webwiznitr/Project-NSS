@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 4.9.2
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Aug 22, 2020 at 03:38 PM
--- Server version: 10.4.13-MariaDB
--- PHP Version: 7.2.32
+-- Host: 127.0.0.1:3308
+-- Generation Time: Oct 29, 2020 at 07:44 PM
+-- Server version: 8.0.18
+-- PHP Version: 7.3.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -24,15 +25,38 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `login_tbl`
+--
+
+DROP TABLE IF EXISTS `login_tbl`;
+CREATE TABLE IF NOT EXISTS `login_tbl` (
+  `iLogin_id` int(11) NOT NULL,
+  `iLogin_name` varchar(55) NOT NULL,
+  `iLogin_password` varchar(255) NOT NULL,
+  PRIMARY KEY (`iLogin_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `login_tbl`
+--
+
+INSERT INTO `login_tbl` (`iLogin_id`, `iLogin_name`, `iLogin_password`) VALUES
+(4, 'admin', '21232f297a57a5a743894a0e4a801fc3');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `suggestion`
 --
 
-CREATE TABLE `suggestion` (
-  `Srno` int(11) NOT NULL,
+DROP TABLE IF EXISTS `suggestion`;
+CREATE TABLE IF NOT EXISTS `suggestion` (
+  `Srno` int(11) NOT NULL AUTO_INCREMENT,
   `email` varchar(50) NOT NULL,
   `suggest` text NOT NULL,
-  `date` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`Srno`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- --------------------------------------------------------
 
@@ -40,43 +64,13 @@ CREATE TABLE `suggestion` (
 -- Table structure for table `updates`
 --
 
-CREATE TABLE `updates` (
-  `srno` int(11) NOT NULL,
+DROP TABLE IF EXISTS `updates`;
+CREATE TABLE IF NOT EXISTS `updates` (
+  `srno` int(11) NOT NULL AUTO_INCREMENT,
   `post` text NOT NULL,
-  `date` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Indexes for dumped tables
---
-
---
--- Indexes for table `suggestion`
---
-ALTER TABLE `suggestion`
-  ADD PRIMARY KEY (`Srno`);
-
---
--- Indexes for table `updates`
---
-ALTER TABLE `updates`
-  ADD PRIMARY KEY (`srno`);
-
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `suggestion`
---
-ALTER TABLE `suggestion`
-  MODIFY `Srno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
-
---
--- AUTO_INCREMENT for table `updates`
---
-ALTER TABLE `updates`
-  MODIFY `srno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`srno`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
