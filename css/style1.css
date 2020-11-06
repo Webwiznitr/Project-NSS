@@ -1,18 +1,16 @@
 body {
   font-family            : "Poppins", sans-serif;
   overflow-x             : hidden;
-  color                  : white;
   line-height            : 30px;
   text-rendering         : optimizeLegibility;
   -webkit-font-smoothing : antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+   background-color:      : white;
 }
 
 p {
   margin-bottom: -1rem;
   font-size    : 14px;
-  color        : #666666;
   line-height  : 30px;
 }
 
@@ -36,11 +34,6 @@ ul {
   border-radius: 25px;
 }
 
-.whole {
-  background: linear-gradient(45deg, #49a09d, #3a2c82);
-
-}
-
 #tabs ul {
   margin : 0;
   padding: 0;
@@ -58,20 +51,20 @@ ul {
 #tabs ul li a {
   text-transform  : capitalize;
   width           : 100%;
-  padding         : 30px 30px;
+  padding         : 6%;
   display         : inline-block;
-  background-color: rgba(255, 255, 255, 0.1);
-  font-size       : 20px;
-  color           : #091D36;
+  background-color: rgba(255, 255, 255, 0.3);
+  font-size       : 18px;
+  color           : #082f5f;
   letter-spacing  : 0.5px;
   font-weight     : 700;
   transition      : all 0.3s;
-  margin-left:20px;
+  margin-left     :20px;
 }
 
 #tabs ul li a:hover {
   transform       : scale(1.01);
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 #tabs ul li a i {
@@ -86,8 +79,9 @@ ul {
 }
 
 #tabs ul .ui-tabs-active a {
+  border-right    : solid 7px #091D36;
   color           : #fff;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 #tabs ul .ui-tabs-active span {
@@ -117,15 +111,18 @@ ul {
 
 .tabs-content p {
   font-size    : 1rem;
-  color        : #fff;
   margin-bottom: 0px;
   padding      : 0%;
 
 }
 
 .listOfWp {
-  margin-left : -15%;
-  margin-right: 10%;
+  display         : inline-block;
+  background-color: #1b5295;
+  margin-right    : 2%;
+  padding-left    : 0;
+  max-width       : 33%;
+  max-height      : 100%;
 }
 
 article {
@@ -141,25 +138,38 @@ h3 {
 }
 
 .contact h3 {
-  color      : white;
   font-weight: 400;
   font-size  : 1.5rem;
 }
-
-/* Responsive Style */
-
-.listOfWp{
-  margin-left: -10%;
+.container{
+  margin-left: 0;
+  max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-@media (max-width: 768px) {
-  .tabs-content {
-    margin-left: 0px;
-    margin-top : 30px;
+#tabs{
+  width         : inherit;
+  display       : flex;
+  align-items   : flex-start;
+  flex-direction: row;
+}
+.col-md-8{
+  display      : inline-block;
+  margin-bottom: 10px;
+  max-width    : 60%;
+}
+/* Responsive style */
+
+@media (max-width: 816px){
+  #tabs ul li a{
+    font-size: 15px;
   }
 }
-
-@media (max-width: 580px) {
+@media (max-width: 468px){
   .listOfWp{
-    margin-left: 0;
+    max-width: 100%;
+  }
+  .col-md-8{
+    max-width: 100%;
   }
 }

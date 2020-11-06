@@ -44,8 +44,10 @@ body {
 }
 
 .nav-link {
+
   font-size: 1.1em;
   height: inherit;
+
   align-items: center;
   display: flex;
 }
@@ -115,7 +117,9 @@ body {
 }
 
 .about p {
+
   color: var(--primary-color);
+
   padding: 0 5rem;
   padding-bottom: 2rem;
   text-align: justify;
@@ -246,8 +250,10 @@ h1 {
 
 h3 {
   font-family: Verdana;
+
   color: #fff;
   font-size: 70%;
+
 }
 
 /*Cards*/
